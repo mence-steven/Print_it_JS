@@ -46,20 +46,7 @@ arrowRight.addEventListener('click', () => {
 	currentIndex ++;
 	carousel(currentIndex);
 })
-/***************** creation dots *******************//*
-function createDots() {
-    slides.forEach((slide, index) => {
-        //const dot = document.createElement('img');
-        dot.classList.add('dot');
-        //dot.src = slide.image;
-        //dot.alt = `slide ${index + 1}`;
-        dot.addEventListener('click', () => {
-            currentIndex = index;
-            carousel(currentIndex);
-        });
-        dotContainer.appendChild(dot);
-    });
-}*/
+/***************** creation dots *******************/
 function createDots() {
 	for(let index = 0;
 		index < slides.length; index++)
